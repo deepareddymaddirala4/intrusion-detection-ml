@@ -1,19 +1,32 @@
 # Intrusion Detection System using Machine Learning
 
-This project uses the NSL-KDD dataset to classify network traffic as normal or malicious.
+## Overview
+This project implements a machine learning-based intrusion detection system using the NSL-KDD dataset to classify network traffic as normal or malicious.
 
-## Models
+## Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Seaborn
+
+## Models Implemented
 - Random Forest
 - Logistic Regression
 
-## Steps
-- Data preprocessing
-- Model training
-- Evaluation
+## Methodology
+- Data preprocessing and encoding
+- Train-test split
+- Model training and evaluation
+- Performance analysis using accuracy and confusion matrix
 
-## Result
-Achieved high accuracy (~85–95%)
+## Results
+The Random Forest model achieved high accuracy (~85–95%) in detecting network intrusions.
+
+## Dataset
+NSL-KDD Dataset (not included in repository)
 
 ## Future Work
-- Deep learning
-- Edge deployment
+- Explore deep learning techniques for improved accuracy  
+- Implement real-time intrusion detection using edge computing  
+- Extend to multi-class attack classification  
